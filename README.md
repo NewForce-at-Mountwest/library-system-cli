@@ -19,12 +19,19 @@ You can read more about contributing to open source projects here, here, and her
 1. Run [this SQL script](Library-System-CLI/library_system_cli.sql) to create your tables and seed your datbase
 
 
-### To contribute to this repository, you should:
+### To configure your repo, you should:
 1. Fork this repo
 1. Clone down your forked repo
 1. [Point your newly forked repo towards this original repo so that you can sync any changes we make here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
 1. Make a branch off of your forked repo and start working
 1. When you're ready to make a pull request, you'll request to merge your changes into `upstrea master`. Feel free to ask for help when you get to this point.
+
+### Before you start coding:
+Run the following commands in `./LIbrary-System-CLI`:
+```
+dotnet add package System.Data.SqlClient
+dotnet restore
+```
 
 
 ## Contributing Guidelines
