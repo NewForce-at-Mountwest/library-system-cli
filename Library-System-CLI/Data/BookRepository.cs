@@ -39,7 +39,6 @@ namespace Library_System_CLI
 
                     List<Book> books = new List<Book>();
 
-
                     while (reader.Read())
                     {
                         // For each row that comes back from the database, create a new instance of a book
