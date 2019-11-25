@@ -19,12 +19,13 @@ namespace Library_System_CLI
                
 1. Check out a book
 2. Return a book
-3. View patrons who currently have checked out books
-4. Make a new patron
+3. View patrons with overdue books
+4. Create a new patron
 5. Check patron status
-6. Delete a patron
-7. Edit a patron's information
-8. View reports
+6. Check book status
+7. Delete a patron
+8. Edit a patron's information
+9. View reports
             
 ");
             string input = Console.ReadLine();
@@ -43,10 +44,13 @@ namespace Library_System_CLI
                 case 5:
                     break;
                 case 6:
+                    CheckBookStatus.CollectInput();
                     break;
                 case 7:
                     break;
                 case 8:
+                    break;
+                case 9:
                     break;
                 default:
                     Console.WriteLine("Please select a valid option.");
