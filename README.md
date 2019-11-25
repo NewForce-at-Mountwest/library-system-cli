@@ -5,7 +5,7 @@ This is a command line application designed for librarians to manage their inven
 
 It's also a way to learn how to contribute to open source projects. We're building this app together. Everyone can fix bugs, pull tickets, and suggest new pieces of functionality.
 
-You can read more about contributing to open source projects here, here, and here.
+You can read more about contributing to open source projects [here](https://hackernoon.com/how-to-get-started-with-open-source-2b705e726fea) and [here](https://codeburst.io/how-to-start-contributing-to-open-source-d9e38b01a5e1).
 
 
 ## Instructions to Run
@@ -51,6 +51,11 @@ We love to receive contributions from our community — you! There are many ways
 Unsure where to start? You can sort through our issues for beginner and help wanted tags. Beginner issues should involve only a few lines of code. Help wanted issues are slightly more involved.
 
 At this point, you're ready to make your first contribution! Feel free to ask for help-- everybody's a beginner at some point!
+
+### Ready to move on to real world projects? Here are some resources:
+1. [A list of open source projects for beginners](https://github.com/MunGell/awesome-for-beginners)
+1. [Get an email every day about open issues in projects you want to follow](https://www.codetriage.com/)
+1. [List of cool open source JavaScript projects](https://medium.mybridge.co/48-amazing-javascript-open-source-for-the-past-year-v-2019-ce51cdd10fb9)
 
 
 
