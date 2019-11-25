@@ -9,7 +9,7 @@ namespace Library_System_CLI.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public List<PatronBook> currentBooks { get; set; } = new List<PatronBook>();
+        public List<PatronBook> CheckedOutBooks { get; set; } = new List<PatronBook>();
 
     }
 }
