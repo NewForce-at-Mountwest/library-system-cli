@@ -43,6 +43,9 @@ People who currently have this book checked out:
             // Print the patrons who currently have this book checked out
             bookDetails.Patrons.ForEach(patronBook => Console.WriteLine($"{patronBook.Patron.FirstName} {patronBook.Patron.LastName}"));
 
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey();
+            Program.PrintMainMenu();
 
         }
     }
