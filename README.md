@@ -14,10 +14,6 @@ You can read more about contributing to open source projects [here](https://hack
 1. [.NET Core](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
 1. A code editor of your choice
 
-### First, set up your database
-1. Create a new SQL Server Database and name it Library-System
-1. Run [this SQL script](Library-System-CLI/library_system_cli.sql) to create your tables and seed your datbase
-
 
 ### To configure your repo, you should:
 1. Fork this repo
@@ -25,6 +21,14 @@ You can read more about contributing to open source projects [here](https://hack
 1. [Point your newly forked repo towards this original repo so that you can sync any changes we make here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
 1. Make a branch off of your forked repo and start working
 1. When you're ready to make a pull request, you'll request to merge your changes into `upstrea master`. Feel free to ask for help when you get to this point.
+
+
+### Set up your database
+1. Open your project in Visual Studio
+1. Open the SQL Server Object Explorer and connect to your instance of SQL Server
+1. Right click on the "Databases" folder and select "New Database"
+1. Name your database `Library-System`
+1. Run [this SQL script](Library-System-CLI/library_system_cli.sql) to create your tables and seed your datbase
 
 ### Before you start coding:
 Run the following commands in `./LIbrary-System-CLI`:
